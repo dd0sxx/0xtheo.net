@@ -1,0 +1,63 @@
+@font-face {
+    font-family: one;
+    src: url(./font/ERTHQAKE.TTF);
+  }
+@font-face {
+    font-family: two;
+    src: url(./font/FancyCardText.ttf);
+  }
+@font-face {
+    font-family: three;
+    src: url(./font/Montserrat-Bold.ttf);
+  }
+@font-face {
+    font-family: four;
+    src: url(./font/Montserrat-Regular.ttf);
+  }
+@font-face {
+    font-family: five;
+    src: url(./font/Rounded\ Elegance.ttf);
+  }
+@font-face {
+    font-family: six;
+    src: url(./font/StitchWarrior\ demo.ttf);
+  }
+@font-face {
+    font-family: seven;
+    src: url(./font/strassburg\ fraktur.ttf);
+  }
+@font-face {
+    font-family: eight;
+    src: url(./font/VCR_OSD_MONO.ttf);
+  }
+
+body {
+    background-color: gray;
+}
+
+.logo {
+    font-size: 256pt;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.logo .zero {
+    font-family: eight;
+    font-size: 1024pt;
+    margin-top: -274px;
+    margin-left: -75px;
+}
+
+.logo .x {
+    font-family: two;
+    font-size: 1536pt;
+    margin-top: -605px;
+    margin-left: -75px;
+}
+.logo .theo {
+    font-family: five;
+    font-size: 256px;
+    margin-top: 825px;
+    margin-left: -75px;
+}
