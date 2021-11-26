@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dd0sxx/0xtheo.net/issues"
   },
-  "homepage": "https://github.com/dd0sxx/0xtheo.net#readme"
+  "homepage": "https://github.com/dd0sxx/0xtheo.net#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
