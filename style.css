@@ -33,6 +33,10 @@
 
 body {
     background-color: gray;
+    overflow: hidden;
+    margin: 2%;
+    max-width: 4400px;
+    margin: auto;
 }
 
 .logo {
@@ -40,6 +44,23 @@ body {
     display: flex;
     padding-left: 5%;
     padding-top: 5%;
+    height: 1700px;
+}
+
+.menu {
+    font-family: six;
+    font-size: 80pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    height: auto;
+}
+
+.menu div {
+    padding-right: 5%;
 }
 
 .logo .zero {
