@@ -49,7 +49,7 @@ body {
 
 .menu {
     font-family: six;
-    /* font-size: 80pt; */
+    font-size: 24pt;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -73,13 +73,13 @@ body {
 .logo .x {
     font-family: two;
     font-size: 500pt;
-    margin-top: -130px;
+    margin-top: -105px;
     margin-left: -25px;
 }
 .logo .theo {
     font-family: five;
     font-size: 64pt;
-    margin-top: 337px;
+    margin-top: 360px;
     margin-left: -29px;
 }
 
