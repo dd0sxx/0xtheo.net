@@ -82,3 +82,38 @@ body {
     margin-top: 830px;
     margin-left: -75px;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .logo {
+        height: auto;
+    }
+
+    .logo .zero {
+        font-family: eight;
+        font-size: 524pt;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .logo .x {
+        font-family: two;
+        font-size: 524pt;
+        margin-top: 20px;
+        margin-left: -35px;
+    }
+    
+    .logo .theo {
+        font-family: five;
+        font-size: 80pt;
+        margin-top: 595px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
