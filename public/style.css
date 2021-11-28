@@ -60,10 +60,9 @@ body {
 .canvas {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 2.5%;
     margin-bottom: 0%;
     height: 75vh;
-    border: 1px solid black;
     width: 100%;
 }
 

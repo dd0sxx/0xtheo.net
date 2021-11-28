@@ -13,7 +13,6 @@ let randColor = () => {
     for (let i = 0; i < ref.length; i++) {
         let rand = Math.floor(Math.random() * ref.length);
         let rand2 = Math.floor(Math.random() * ref.length);
-        console.log(rand)
         ref[rand][0].style.color = col[rand2]
         ref.splice(rand, 1)
     }
