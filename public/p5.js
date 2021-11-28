@@ -3,12 +3,16 @@ let canvasDiv
 canvasDiv = document.getElementsByClassName('canvas')
 
 function setup() {
-    console.log(canvasDiv[0])
-    let canvas = createCanvas(canvasDiv[0].offsetHeight, canvasDiv[0].offsetWidth);  
+    let canvas = createCanvas(canvasDiv[0].offsetWidth, canvasDiv[0].offsetHeight, WEBGL);  
     canvas.parent("canvasDiv");
   }
   
   function draw() {
     colorMode(RGB)
-    background(120, 120, 0);
+    push();
+    rotateZ(frameCount * 0.01);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    box(70, 70, 70);
+    pop();
   }
